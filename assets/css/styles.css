@@ -1,0 +1,247 @@
+/* ========Initial=========*/
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0f1b4c;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", "Sen", sans-serif;
+}
+
+/* ========Common=========*/
+
+.content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+strong {
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    letter-spacing: 0%;
+}
+
+span {
+    color: #5f5b53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 118px;
+    height: 50px;
+    color: #fff;
+    border-radius: 24.5px;
+    background: #171100;
+    padding: 0 24px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* ========Header=========*/
+.header {
+    background: #fffcf4;
+}
+
+header .row {
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ========Navbar========*/
+.header .navbar {
+    display: flex;
+    align-items: center;
+}
+
+.header .navbar li {
+    margin-right: 42px;
+}
+
+.header .navbar li a {
+    color: #5f5b53;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.header .navbar li:first-child {
+    position: relative;
+}
+
+.header .navbar li:first-child a {
+    color: #171100;
+    font-weight: 600;
+}
+
+.header .navbar li:first-child::after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    background: #171100;
+    bottom: 0;
+    left: 0;
+}
+
+.header .btn-sign-up {
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+    margin-left: 70px;
+}
+
+/* ========Hero========*/
+.hero {
+    margin-top: 64px;
+    display: flex;
+}
+
+.hero .img-area {
+    position: relative;
+    width: 570px;
+    width: 49%;
+    padding-bottom: 65px;
+}
+
+.hero .img {    
+    width: 470px;
+    border-radius: 20px;
+}
+
+.hero .small-stat {
+    position: absolute;
+    bottom: 113px;
+    left: 300px;
+    width: 270px;
+    padding: 24px 24px 24px 24px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .small-stat .row-group{
+    display: flex;
+    align-items: center;
+}
+
+.hero .small-stat .column {
+    margin-left: 16px;    
+}
+
+.hero .column .desc {
+    color: #5F5B53;
+font-family: Poppins;
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 1.85
+}
+
+.hero .column .tilte {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+}
+
+.hero .info {
+    width: 470px;
+    margin-left: auto;
+}
+
+.hero .info .title {
+    margin-top: 64px;
+    width: 470px;
+    color: #171100;
+    font-family: Sen;
+    font-size: 5.8rem;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -1.16px;
+}
+
+.hero .info .desc {
+    margin-top: 22px;
+    color: #5f5b53;
+    font-size: 1.8rem;
+    line-height: 1.66;
+}
+
+.hero .action {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.hero .btn-see-courses {
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+    border-radius: 32px;
+    background: #ffb900;
+}
+
+.hero .action a {
+    color: #171100;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.66;
+}
+
+.hero .action .btn-cirle {
+    margin: 0px 14px 0px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0px 12px 12px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .info .recent-engagement {
+    display: block;
+    margin-top: 48px;
+}
+
+.hero .info .stat-num {
+    margin-top: 7px;
+    display: flex;
+    gap: 28px;
+}
